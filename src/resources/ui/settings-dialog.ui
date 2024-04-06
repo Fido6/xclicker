@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.38.2 -->
+<!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.22"/>
   <object class="GtkDialog" id="dialog">
@@ -50,8 +50,7 @@
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">This prevents you from running with under a 100
-milliseconds interval.</property>
+                    <property name="label" translatable="yes">这将会阻止你以低于100毫秒的时间间隔进行点击</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -82,7 +81,7 @@ milliseconds interval.</property>
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">Safe mode</property>
+                <property name="label" translatable="yes">安全模式</property>
               </object>
             </child>
           </object>
@@ -111,8 +110,7 @@ milliseconds interval.</property>
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">With this enabled, XClicker will not click on       
-gtk applications.</property>
+                    <property name="label" translatable="yes">启用此项后， XClicker 将不会点击GTK应用。</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -144,7 +142,7 @@ gtk applications.</property>
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">Use XEvent</property>
+                <property name="label" translatable="yes">使用 XEvent</property>
               </object>
             </child>
           </object>
@@ -172,7 +170,7 @@ gtk applications.</property>
                 <property name="homogeneous">True</property>
                 <child>
                   <object class="GtkButton" id="start_button">
-                    <property name="label" translatable="yes">Start</property>
+                    <property name="label" translatable="yes">开始</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
@@ -203,7 +201,7 @@ gtk applications.</property>
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">Start/Stop Hotkey</property>
+                <property name="label" translatable="yes">开始/停止 热键</property>
               </object>
             </child>
           </object>
@@ -231,7 +229,7 @@ gtk applications.</property>
                 <property name="homogeneous">True</property>
                 <child>
                   <object class="GtkButton" id="reset_preset_button">
-                    <property name="label" translatable="yes">Reset preset options</property>
+                    <property name="label" translatable="yes">重置当前选项</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
@@ -249,7 +247,7 @@ gtk applications.</property>
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">Reset</property>
+                <property name="label" translatable="yes">重置</property>
               </object>
             </child>
           </object>
